@@ -1,20 +1,20 @@
 /*
  * @Author: your name
  * @Date: 2021-06-03 18:01:57
- * @LastEditTime: 2021-06-04 14:01:04
+ * @LastEditTime: 2021-06-04 16:21:47
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \lreact\src\App.js
  */
 import logo from "./logo.svg";
 import "./App.css";
-import Component from "./lreact/Component";
+import { Component } from "./lreact/Component";
 class ClassComponent extends Component {
   // constructor(props) {
   //   super(props);
   // }
   render() {
-    return <div>123{this.props.name}</div>;
+    return <div>1234{this.props.name}</div>;
   }
 }
 function App() {
