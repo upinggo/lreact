@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-03 18:01:57
- * @LastEditTime: 2021-06-03 18:06:06
+ * @LastEditTime: 2021-06-04 13:46:01
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \lreact\src\index.js
@@ -12,12 +12,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+const jsx = <div className="a">123</div>;
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
