@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-03 18:01:57
- * @LastEditTime: 2021-06-04 16:21:47
+ * @LastEditTime: 2021-06-10 14:04:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \lreact\src\App.js
@@ -23,7 +23,7 @@ function App() {
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js111</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -33,7 +33,7 @@ function App() {
         >
           Learn React
         </a>
-        <ClassComponent name="name" />
+        {/* <ClassComponent name="name" /> */}
       </header>
     </div>
   );
